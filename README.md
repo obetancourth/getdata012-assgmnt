@@ -2,8 +2,8 @@
 ## Coursera Project for Getting and Cleaning data Module
 
 This project contains all the procedures that merges the data available
-in the folder <<rawdata>> downloaded from
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+in the **rawdata** folder downloaded from
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ##Packages Required
 1. sqldf  *install.packages("sqldf")*
