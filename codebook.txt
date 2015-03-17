@@ -1,5 +1,9 @@
 tidy_wearable_summarized_data CodeBook
 
+This codebook lists all variables and column number for
+the tidy_wearable_summarized_data.txt dataset.
+
+
 1 activity_name
   type: text
   The activity name observed in the test and train datasets
@@ -8,7 +12,7 @@ tidy_wearable_summarized_data CodeBook
   The number of the 30 subjects observed in the test and train datasets
 3 avg_tBodyAcc_mean_X
   type: numeric
-  
+
 4 avg_tBodyAcc_mean_Y
 5 avg_tBodyAcc_mean_Z
 6 avg_tBodyAcc_std_X
