@@ -82,8 +82,10 @@ if(!file.exists("./rawdata/README.txt")){
   #summarizing data using summarise_each which uses the functions passed to funs parameter for every
   #column not in the group_by declaration
   tidy_summary <-summarise_each(grouped_set, funs(mean));
+  #changin column names to represent data of the measurments
+  colnames(tidy_summary)[3:68]<-sprintf("avg_%s",colnames(tidy_summary[,c(3:68)]))
   #writing to persistent file
-  write.table("./tidydata/tidy_wearable_summarized_data.txt", tidy_summary,row.name=FALSE);
+  write.table(tidy_summary, file = "./tidydata/tidy_wearable_summarized_data.txt",row.names=FALSE);
   #cleaning unused data sets
   rm(grouped_set);
   
